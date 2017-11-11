@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Diagnostics;
 using System.Threading;
+using System.Windows.Forms;
 
 namespace ClumsyAssistant3._0
 {
@@ -46,18 +47,41 @@ namespace ClumsyAssistant3._0
 
         public void ProcessEvent(String name)
         {
-            switch(name)
+            Process[] localByName;
+            switch (name)
             {
                 case "firefox":
-                    n.ShowNotification("Internet", "I see you tried to open the internet in a wrong way, here, I fixed it for you!", 1000);
+                    n.ShowNotification("Internet", "I see you tried to open the internet in a wrong way, here, I fixed it for you!", 1000, ToolTipIcon.Error);
 
-                    Process[] localByName = Process.GetProcessesByName("firefox");
-                    foreach(Process proc in localByName)
-                    {
-                        proc.Kill();
-                    }
                     System.Diagnostics.Process.Start("microsoft-edge:");
                     break;
+
+                case "chrome":
+                    n.ShowNotification("Internet", "I see you tried to open the internet in a wrong way, here, I fixed it for you!", 1000, ToolTipIcon.Error);
+
+                    System.Diagnostics.Process.Start("microsoft-edge:");
+                    break;
+
+                case "Taskmgr":
+                    n.ShowNotification("My life", "Did you just try to close me?!", 1000, ToolTipIcon.Error);
+                    break;
+
+                case "cmd":
+                    n.ShowNotification("Hackerman", "Smart hacker, bad hacker?!", 1000, ToolTipIcon.Error);
+                    break;
+
+                case "powershell":
+                    n.ShowNotification("Hackerman", "Smart hacker, bad hacker?!", 1000, ToolTipIcon.Error);
+                    break;
+
+                default:
+                    return;
+            }
+
+            localByName = Process.GetProcessesByName(name);
+            foreach (Process proc in localByName)
+            {
+                proc.Kill();
             }
         }
 
@@ -69,7 +93,7 @@ namespace ClumsyAssistant3._0
             
             foreach(String s in differentProcesses)
             {
-               // Console.WriteLine(s);
+                Console.WriteLine(s);
                 ProcessEvent(s);
             }
 
