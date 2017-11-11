@@ -1,0 +1,9 @@
+c:\users\pebbles\documents\visual studio 2017\Projects\ClumsyAssistant3.0\ClumsyAssistant3.0\bin\Debug\ClumsyAssistant3.0.exe.config
+c:\users\pebbles\documents\visual studio 2017\Projects\ClumsyAssistant3.0\ClumsyAssistant3.0\bin\Debug\ClumsyAssistant3.0.exe
+c:\users\pebbles\documents\visual studio 2017\Projects\ClumsyAssistant3.0\ClumsyAssistant3.0\bin\Debug\ClumsyAssistant3.0.pdb
+c:\users\pebbles\documents\visual studio 2017\Projects\ClumsyAssistant3.0\ClumsyAssistant3.0\obj\Debug\ClumsyAssistant3.0.csprojResolveAssemblyReference.cache
+c:\users\pebbles\documents\visual studio 2017\Projects\ClumsyAssistant3.0\ClumsyAssistant3.0\obj\Debug\ClumsyAssistant3._0.Form1.resources
+c:\users\pebbles\documents\visual studio 2017\Projects\ClumsyAssistant3.0\ClumsyAssistant3.0\obj\Debug\ClumsyAssistant3._0.Properties.Resources.resources
+c:\users\pebbles\documents\visual studio 2017\Projects\ClumsyAssistant3.0\ClumsyAssistant3.0\obj\Debug\ClumsyAssistant3.0.csproj.GenerateResource.Cache
+c:\users\pebbles\documents\visual studio 2017\Projects\ClumsyAssistant3.0\ClumsyAssistant3.0\obj\Debug\ClumsyAssistant3.0.exe
+c:\users\pebbles\documents\visual studio 2017\Projects\ClumsyAssistant3.0\ClumsyAssistant3.0\obj\Debug\ClumsyAssistant3.0.pdb
