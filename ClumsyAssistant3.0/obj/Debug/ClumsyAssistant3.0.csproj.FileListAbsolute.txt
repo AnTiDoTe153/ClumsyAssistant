@@ -20,3 +20,16 @@ C:\Users\teny9\Desktop\Other\Projects\C#\ClumsyAssistant\ClumsyAssistant3.0\bin\
 C:\Users\teny9\Desktop\Other\Projects\C#\ClumsyAssistant\ClumsyAssistant3.0\bin\Debug\Microsoft.Toolkit.Uwp.Notifications.xml
 C:\Users\teny9\Desktop\Other\Projects\C#\ClumsyAssistant\ClumsyAssistant3.0\obj\Debug\ClumsyAssistant3.0.exe
 C:\Users\teny9\Desktop\Other\Projects\C#\ClumsyAssistant\ClumsyAssistant3.0\obj\Debug\ClumsyAssistant3.0.pdb
+C:\Users\Calina\Desktop\Cass\ClumsyAssistant3.0\bin\Debug\ClumsyAssistant3.0.exe.config
+C:\Users\Calina\Desktop\Cass\ClumsyAssistant3.0\bin\Debug\ClumsyAssistant3.0.exe
+C:\Users\Calina\Desktop\Cass\ClumsyAssistant3.0\bin\Debug\ClumsyAssistant3.0.pdb
+C:\Users\Calina\Desktop\Cass\ClumsyAssistant3.0\bin\Debug\Microsoft.Toolkit.Uwp.Notifications.dll
+C:\Users\Calina\Desktop\Cass\ClumsyAssistant3.0\bin\Debug\Microsoft.Toolkit.Uwp.Notifications.pdb
+C:\Users\Calina\Desktop\Cass\ClumsyAssistant3.0\bin\Debug\Microsoft.Toolkit.Uwp.Notifications.xml
+C:\Users\Calina\Desktop\Cass\ClumsyAssistant3.0\obj\Debug\ClumsyAssistant3.0.csprojResolveAssemblyReference.cache
+C:\Users\Calina\Desktop\Cass\ClumsyAssistant3.0\obj\Debug\ClumsyAssistant3._0.Form1.resources
+C:\Users\Calina\Desktop\Cass\ClumsyAssistant3.0\obj\Debug\ClumsyAssistant3._0.Properties.Resources.resources
+C:\Users\Calina\Desktop\Cass\ClumsyAssistant3.0\obj\Debug\ClumsyAssistant3.0.csproj.GenerateResource.Cache
+C:\Users\Calina\Desktop\Cass\ClumsyAssistant3.0\obj\Debug\ClumsyAssistant3.0.csproj.CoreCompileInputs.cache
+C:\Users\Calina\Desktop\Cass\ClumsyAssistant3.0\obj\Debug\ClumsyAssistant3.0.exe
+C:\Users\Calina\Desktop\Cass\ClumsyAssistant3.0\obj\Debug\ClumsyAssistant3.0.pdb
