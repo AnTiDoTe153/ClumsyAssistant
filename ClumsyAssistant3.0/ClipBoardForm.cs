@@ -15,6 +15,7 @@ namespace ClumsyAssistant3._0
     {
         private ClipboardHandler cbHandler;
         private IntPtr nextClipboardViewer;
+        private Notification not = new Notification();
 
         [DllImport("User32.dll")]
         protected static extern int
@@ -49,6 +50,7 @@ namespace ClumsyAssistant3._0
             switch (m.Msg)
             {
                 case WM_DRAWCLIPBOARD:
+                    this.not.ShowNotification("You tryied to copy something!", "I changed it with something more appropriate", 5000);
                     this.cbHandler.SwapClipboardHText("nope");
                     break;
                 default:
