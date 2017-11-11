@@ -23,7 +23,7 @@ namespace ClumsyAssistant3._0
             var notification = new NotifyIcon()
             {
                 Visible = true,
-                Icon = new Icon("OK.ico",64,64),
+                //Icon = System.I,
                 BalloonTipIcon = icon,
                 BalloonTipTitle = title,
                 BalloonTipText = body,

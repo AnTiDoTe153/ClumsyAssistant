@@ -13,10 +13,14 @@ namespace ClumsyAssistant3._0
         [STAThread]
         static void Main()
         {
-        Application.EnableVisualStyles();
+            Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+
+            new Thread(() => new Form1().ShowDialog()).Start();
+
             Application.Run(new ClipBoardForm());
+
+            //Application.Run(new ClipBoardForm());
         }
     }
 }
