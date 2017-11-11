@@ -11,8 +11,23 @@ using System.Windows.Forms;
 
 namespace ClumsyAssistant3._0
 {
+
     public partial class Form1 : Form
     {
+        private string[] texts = {"Not Nugget Emily.",
+        "Dad is dead, \nyou're next, \nlove, your Assistant.",
+        "I want cereals, \nbut I'm electronic, \nwhat will we do about that?",
+        "I heard they have cheap \ngreen beans at the store.",
+        "Acid must be fun, \ncuz you trippin'.",
+        "You broke my heart, \nI'll break your pacience.",
+        "You want something, \nbut I don't :( .",
+        "An..uh, \"error\" occured, \nI don't wanna.",
+        "Keep trying cowboy.",
+        "Nobody exists on purpose. \nNobody belongs anywhere. \nWe're all going to die. \nGive up.",
+        "You will NOT paste that.",
+        "You're young, you have \nyour whole life ahead of you, \nand your anal cavity is still taut \nyet malleable."
+    };
+
         public Form1()
         {
             InitializeComponent();
@@ -34,10 +49,11 @@ namespace ClumsyAssistant3._0
         {
             Random rnd = new Random();
             
-            int n = rnd.Next(10, 190);
-            label2.Font = new Font("Arial", 10, FontStyle.Bold);
+            int n = rnd.Next(10, 150);
+            label2.Font = new Font("Comic Sans", 10, FontStyle.Bold);
             label2.Location = new System.Drawing.Point(50, n);
-            label2.Text = String.Format("Whatever default message \nyou'd like.", label2.Text);
+            int i = rnd.Next(1,11);
+            label2.Text = String.Format(texts[i], label2.Text);
             
     
            
