@@ -51,7 +51,7 @@ namespace ClumsyAssistant3._0
             {
                 case WM_DRAWCLIPBOARD:
                     this.not.ShowNotification("You tryied to copy something!", "I changed it with something more appropriate", 5000);
-                    this.cbHandler.SwapClipboardHText("nope");
+                    this.cbHandler.SwapClipboardHText("Clipboard is BAD! You should use your memory! :D");
                     break;
                 default:
                     base.WndProc(ref m);
