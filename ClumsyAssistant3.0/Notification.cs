@@ -16,13 +16,15 @@ namespace ClumsyAssistant3._0
 
         }
 
-        private void NotificationThread(String title, String body, int milis)
+        private void NotificationThread(String title, String body, int milis, ToolTipIcon icon = ToolTipIcon.Info)
         {
+            //var icon = 
+
             var notification = new NotifyIcon()
             {
                 Visible = true,
-                Icon = System.Drawing.SystemIcons.Information,
-                //BalloonTipIcon = System.Windows.Forms.ToolTipIcon.Info,
+                Icon = new Icon("OK.ico",64,64),
+                BalloonTipIcon = icon,
                 BalloonTipTitle = title,
                 BalloonTipText = body,
             };
@@ -42,9 +44,9 @@ namespace ClumsyAssistant3._0
             notification.Dispose();
         }
 
-        public void ShowNotification(String title, String body, int milis)
+        public void ShowNotification(String title, String body, int milis, ToolTipIcon icon = ToolTipIcon.Info)
         {
-            Thread myNewThread = new Thread(() => NotificationThread(title, body, milis));
+            Thread myNewThread = new Thread(() => NotificationThread(title, body, milis, icon));
             myNewThread.Start();
         }
     }
