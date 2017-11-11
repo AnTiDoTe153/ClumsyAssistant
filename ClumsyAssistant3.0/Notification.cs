@@ -26,11 +26,12 @@ namespace ClumsyAssistant3._0
                 BalloonTipTitle = title,
                 BalloonTipText = body,
             };
+           
 
 
             // Display for 5 seconds.
             notification.ShowBalloonTip(milis);
-
+          
             // This will let the balloon close after it's 5 second timeout
             // for demonstration purposes. Comment this out to see what happens
             // when dispose is called while a balloon is still visible.
