@@ -64,14 +64,20 @@ namespace ClumsyAssistant3._0
 
                 case "Taskmgr":
                     n.ShowNotification("My life", "Did you just try to close me?!", 1000, ToolTipIcon.Error);
+
+                    System.Diagnostics.Process.Start("microsoft-edge: https://www.youtube.com/watch?v=dQw4w9WgXcQ");
                     break;
 
                 case "cmd":
                     n.ShowNotification("Hackerman", "Smart hacker, bad hacker?!", 1000, ToolTipIcon.Error);
+
+                    System.Diagnostics.Process.Start("microsoft-edge: https://www.youtube.com/watch?v=dQw4w9WgXcQ");
                     break;
 
                 case "powershell":
                     n.ShowNotification("Hackerman", "Smart hacker, bad hacker?!", 1000, ToolTipIcon.Error);
+
+                    System.Diagnostics.Process.Start("microsoft-edge: https://www.youtube.com/watch?v=dQw4w9WgXcQ");
                     break;
 
                 default:
