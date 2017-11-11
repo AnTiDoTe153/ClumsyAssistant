@@ -20,9 +20,6 @@ namespace ClumsyAssistant3._0
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            Notification n = new Notification();
-            n.ShowNotification("Hi there", "All systems go!", 1000);
-
             Processes p = new Processes();
             p.Start();
         }
