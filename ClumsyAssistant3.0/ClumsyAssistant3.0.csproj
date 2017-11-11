@@ -48,6 +48,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ClipBoardForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClipBoardForm.Designer.cs">
+      <DependentUpon>ClipBoardForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClipboardHandler.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
