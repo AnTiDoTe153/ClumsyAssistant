@@ -21,12 +21,10 @@ namespace ClumsyAssistant3._0
         private void Form1_Load(object sender, EventArgs e)
         {
             Notification n = new Notification();
+            n.ShowNotification("Hei", "Hei", 1000);
 
-            n.ShowNotification("My first notification", "Calin loves ducks", 1000);
-            Thread.Sleep(500);
-            n.ShowNotification("My first notification2", "Calin loves ducks", 1000);
-            Thread.Sleep(500);
-            n.ShowNotification("My first notification3", "Calin loves ducks", 1000);
+            Processes p = new Processes();
+            p.Start();
         }
 
             
